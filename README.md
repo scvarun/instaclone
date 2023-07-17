@@ -1,48 +1,81 @@
 # instaclone
 
-##Table for MongoDB
-user_profile:
-	id:
-	user_name:
-	bio:
-	profile_img_url:
-	followers_count:
-	following_count:
-	posts_counts:
+## Table for MongoDB
 
-posts:
-	id:
-	user_id:
-	img_url:
-	caption:
-	comments_count:
-	likes_count:
+user_profile
+
+		id
 	
-comments: 
-	id:
-	post_id:
-	comment_id:
-	user_id:
-	comment:
+ 		user_name
+	 
+		bio
+	
+ 		profile_img_url
+	 
+		followers_count
+	
+		following_count
+	
+		posts_counts
+	
+
+posts
+
+		id
+	
+		user_id
+	
+		img_url
+	
+		caption
+	
+		comments_count
+	
+		likes_count
+	
+	
+comments
+
+		id
+	
+		post_id
+	
+ 		comment_id
+	 
+		user_id
+	
+ 		comment
+	 
+
 
 likes:
-	id:
-	post_id:
-	comment_id:
-	user_id:
+
+		id:
+	
+		post_id:
+	
+		comment_id:
+	
+		user_id:
+	
 	
 followers:
-	id:
-	user_id:
-	follwer_id:
+		id:
+		user_id:
+		follwer_id:
 
 following:
-	id:
-	user_id:
-	following_id:
+
+		id:
+	
+		user_id:
+	
+		following_id:
+	
 	
 
-##Frontent Screens
+## Frontent Screens
+
 	Feed
 		post username
 		post image
