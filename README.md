@@ -61,8 +61,11 @@ likes:
 	
 followers:
 		id:
+  
 		user_id:
+  
 		follwer_id:
+  
 
 following:
 
