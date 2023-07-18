@@ -73,7 +73,7 @@ following:
 	
 		user_id:
 	
-		following_id:
+		following_ids:
 	
 	
 
